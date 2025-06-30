@@ -5,7 +5,7 @@ on:
 
 jobs:
   check-docs-links:
-    uses: albertov19/workflows/.github/workflows/link-check.yml@main
+    uses: albertov19/workflows/.github/workflows/core-pr-link-checker.yml@main
     with:
       mkdocs_repo: albertov19/tanssi-mkdocs
       docs_repo: albertov19/tanssi-docs
